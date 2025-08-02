@@ -1,0 +1,110 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background-image: url('../images/a1.jpg');
+  background-size: cover;
+  background-position: center;
+  /* filter: brightness(0.8); */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  height: 99%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6600;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.logo span {
+  color: #337ab7;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e6ffe6;
+  font-size: 14px;
+}
+form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e6ffe6;
+  font-size: 14px;
+  color: #333;
+  appearance: none; /* removes default dropdown styling in some browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+form input[type="date"] {
+  color: #333;
+}
+
+button {
+  width: 100%;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e05500;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 12px;
+  text-align: center;
+  color: #555;
+}
+
+.terms a {
+  color: #337ab7;
+  text-decoration: none;
+}
